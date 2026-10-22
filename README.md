@@ -92,7 +92,7 @@ CI also runs ESLint, `tsc` in strict mode, a production build, secretlint on the
 
 ## Deploying the demo
 
-A GitHub Pages workflow is included and **is inert while the repository is private**: Pages is not enabled and the job is skipped. See [`docs/deploy.md`](docs/deploy.md).
+The demo is published with GitHub Pages at **https://dc-tech-inc.github.io/ai-governance-toolkit/**. The workflow is in [`.github/workflows/pages.yml`](.github/workflows/pages.yml); see [`docs/deploy.md`](docs/deploy.md).
 
 ## Roadmap
 

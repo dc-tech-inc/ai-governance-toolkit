@@ -1,6 +1,6 @@
 # Deploying the demo to GitHub Pages
 
-The workflow [`.github/workflows/pages.yml`](../.github/workflows/pages.yml) builds the static site and publishes it. It is **ready but inert while the repository is private**: the `build` job is skipped (`!github.event.repository.private`) and GitHub Pages is not enabled, so nothing is published and nothing fails.
+The workflow [`.github/workflows/pages.yml`](../.github/workflows/pages.yml) builds the static site and publishes it. It is **live**: Pages is enabled with GitHub Actions as the source, and the site is at `https://dc-tech-inc.github.io/ai-governance-toolkit/`. The `build` job is skipped on private forks (`!github.event.repository.private`).
 
 To turn it on (owner action, after reviewing the publication summary):
 
