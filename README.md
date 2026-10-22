@@ -3,7 +3,7 @@
 [![CI](https://github.com/dc-tech-inc/ai-governance-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/dc-tech-inc/ai-governance-toolkit/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Engineering reference by [DCtech.](https://dctech.live): a template and a small static web app for writing an **AI system impact assessment** that follows the shape of [ISO/IEC 42005:2025](https://www.iso.org/standard/42005.html), in strict TypeScript (React + Vite). You fill it in, it tells you what is still empty, rates harms before and after mitigation, and exports JSON or Markdown. It runs in the browser; nothing is uploaded.
+Engineering reference by [DCtech.](https://dctech.live): a template and a small static web app for writing an AI system impact assessment that follows the shape of [ISO/IEC 42005:2025](https://www.iso.org/standard/42005.html), in strict TypeScript (React + Vite). You fill it in, it tells you what is still empty, rates harms before and after mitigation, and exports JSON or Markdown. It runs in the browser; nothing is uploaded.
 
 > **Not an ISO document, not a certification, not a statement of conformity.** ISO/IEC 42005 is copyrighted. This repository contains **no text from the standard**: the section structure, wording, rating scale and checks are our own, and [`docs/alignment-map.md`](docs/alignment-map.md) says at topic level where they line up. To apply the standard properly, buy and read it on the [official ISO page](https://www.iso.org/standard/42005.html). Using this tool does not make anyone conformant to anything.
 
@@ -92,7 +92,7 @@ CI also runs ESLint, `tsc` in strict mode, a production build, secretlint on the
 
 ## Deploying the demo
 
-The demo is published with GitHub Pages at **https://dc-tech-inc.github.io/ai-governance-toolkit/**. The workflow is in [`.github/workflows/pages.yml`](.github/workflows/pages.yml); see [`docs/deploy.md`](docs/deploy.md).
+The demo is published with GitHub Pages at https://dc-tech-inc.github.io/ai-governance-toolkit/. The workflow is in [`.github/workflows/pages.yml`](.github/workflows/pages.yml); see [`docs/deploy.md`](docs/deploy.md).
 
 ## Roadmap
 
