@@ -22,8 +22,8 @@ importers:
         specifier: 1.64.1
         version: 1.64.1
       '@secretlint/secretlint-rule-preset-recommend':
-        specifier: 13.0.7
-        version: 13.0.7
+        specifier: 13.1.0
+        version: 13.1.0
       '@testing-library/jest-dom':
         specifier: 7.0.1
         version: 7.0.1(@testing-library/dom@10.4.2)(vitest@5.0.5)
@@ -442,8 +442,8 @@ packages:
   '@secretlint/resolver@13.0.7':
     resolution: {integrity: sha512-Ru3qBQqfi9s/uazHiVcyAvlQuq3X8q/8eXNqacZ0r/DvWtjb2JBBhIjzx/RrbfJhlsd5yjsrE6C1/Q710Em1Hw==}
 
-  '@secretlint/secretlint-rule-preset-recommend@13.0.7':
-    resolution: {integrity: sha512-hfdYra+ZB6RmviEApxeL/YCx4ovBtpj0d9c+uhlCZaCikObjb8Sb8yqBN6g8/9tt7qD7LXGE3k9RtVvGK1fNVw==}
+  '@secretlint/secretlint-rule-preset-recommend@13.1.0':
+    resolution: {integrity: sha512-dPnplMyjJYpVCJDNTjpUA8c/AfoHbWANJJJWKroK50DGGhAB4Oumzk+XinBMyMMAwgOsjU9CB9lUHXDvObMVCg==}
     engines: {node: '>=22.0.0'}
 
   '@secretlint/source-creator@13.0.7':
@@ -1976,7 +1976,7 @@ snapshots:
 
   '@secretlint/resolver@13.0.7': {}
 
-  '@secretlint/secretlint-rule-preset-recommend@13.0.7': {}
+  '@secretlint/secretlint-rule-preset-recommend@13.1.0': {}
 
   '@secretlint/source-creator@13.0.7':
     dependencies:
